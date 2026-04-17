@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestión de Proyectos Educativos - Explorador</title>
+</head>
+<body>
+    <header>
+        <h1>Plataforma de Gestión de Proyectos Educativos</h1>
+        <p>Bienvenidos!</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="proyectos.html">Listado de Proyectos</a></li>
+                <li><a href="perfil.html">Mi Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Explorador de Proyectos</h2>
+
+            <!-- Barra de Filtros -->
+            <aside>
+                <h3>Filtros de búsqueda</h3>
+                <form>
+                    <label for="categoria">Categoría:</label>
+                    <select id="categoria" name="categoria">
+                        <option value="ciencias">Ciencias Naturales</option>
+                        <option value="tecnologia">Tecnología e Informática</option>
+                        <option value="sociales">Ciencias Sociales</option>
+                    </select>
+
+                    <label for="anio">Año:</label>
+                    <input type="number" id="anio" name="anio" value="2024">
+
+                    <label>Estado:</label>
+                    <input type="radio" id="en-curso" name="estado" value="en-curso">
+                    <label for="en-curso">En curso</label>
+                    <input type="radio" id="finalizado" name="estado" value="finalizado">
+                    <label for="finalizado">Finalizado</label>
+
+                    <button type="submit">Aplicar Filtros</button>
+                </form>
+            </aside>
+
+            <hr>
+
+            <!-- Listado de Proyectos -->
+            <section>
+                <h3>Listado de Proyectos Disponibles</h3>
+
+                <!-- Proyecto 1 -->
+                <article>
+                    <h4>Implementación de Redes en el Aula 5</h4>
+                    <img src="imagenes/Implementación de Redes en el Aula 5.png">
+                    <p>Optimización de la conectividad y seguridad en la sala de computación del nivel secundario.</p>
+                    <p><strong>Categoría:</strong> Tecnología | <strong>Estado:</strong> En curso</p>
+                    <p><a href="detalle.html">Ver detalle</a></p>
+                </article>
+
+                <hr>
+
+                <!-- Proyecto 2 -->
+                <article>
+                    <h4>Estudio del Ecosistema de la Laguna</h4>
+                    <img src="imagenes/Estudio del Ecosistema de la Laguna.jpg">
+                    <p>Análisis de biodiversidad y calidad del agua en la reserva local con alumnos de 4to año.</p>
+                    <p><strong>Categoría:</strong> Ciencias Naturales | <strong>Estado:</strong> Finalizado</p>
+                    <p><a href="detalle.html">Ver detalle</a></p>
+                </article>
+
+                <hr>
+
+                <!-- Proyecto 3 -->
+                <article>
+                    <h4>Taller de Programación en Python</h4>
+                    <img src="imagenes/Taller de Programación en Python.jpg">
+                    <p>Capacitación introductoria para el desarrollo de pequeños scripts automatizados.</p>
+                    <p><strong>Categoría:</strong> Tecnología | <strong>Estado:</strong> En curso</p>
+                    <p><a href="detalle.html">Ver detalle</a></p>
+                </article>
+
+                <hr>
+
+                <!-- Proyecto 4 -->
+                <article>
+                    <h4>Recuperación de Historias Barriales</h4>
+                    <img src="imagenes/Recuperación de Historias Barriales.jpg">
+                    <p>Entrevistas y digitalización de documentos para reconstruir el origen de nuestra comunidad.</p>
+                    <p><strong>Categoría:</strong> Ciencias Sociales | <strong>Estado:</strong> En curso</p>
+                    <p><a href="detalle.html">Ver detalle</a></p>
+                </article>
+
+                <hr>
+
+                <!-- Proyecto 5 -->
+                <article>
+                    <h4>Huerta Orgánica Vertical</h4>
+                    <img src="imagenes/Huerta Orgánica Vertical.jpg">
+                    <p>Diseño de sistemas de cultivo sustentables para espacios reducidos en instituciones educativas.</p>
+                    <p><strong>Categoría:</strong> Ciencias Naturales | <strong>Estado:</strong> Finalizado</p>
+                    <p><a href="detalle.html">Ver detalle</a></p>
+                </article>
+
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Sistema de Gestión de Proyectos Educativos - Grupo 2</p>
+    </footer>
+</body>
+</html>
