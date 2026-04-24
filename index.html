@@ -3,11 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Gestión de Proyectos Educativos - Inicio</title>
+    
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+        .bienvenida-cont {
+            background-color: white;
+            padding: 15px;
+            border-left: 5px solid #8E44AD;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
+
     <header>
-        <h1>Plataforma de Gestión de Proyectos Educativos</h1>
-        <p>Bienvenida al sistema.</p>
+        <h1 style="text-align: center; color: #2c3e50; background-color: #fdfdfd; padding: 10px;">
+            Plataforma de Gestión de Proyectos
+        </h1>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -18,16 +31,30 @@
     </header>
 
     <main>
-        <section>
-            <h2>Estadísticas del Ciclo Lectivo</h2>
-            <ul>
-                <li>Proyectos totales: 12</li>
-                <li>Tareas para hoy: 5</li>
-                <li>Mensajes de docentes: 3</li>
-            </ul>
+        <section class="bienvenida-cont">
+            <h2>Panel de Control</h2>
+            <p>Bienvenido al sistema del Grupo 2.</p>
         </section>
 
-        <hr>
+        <section>
+            <h2>Estadísticas del Ciclo Lectivo</h2>
+            <div class="proyectos-grid">
+                <article>
+                    <p style="font-size: 25px; font-weight: bold; color: #8E44AD;">12</p>
+                    <p>Proyectos totales</p>
+                </article>
+                
+                <article>
+                    <p style="font-size: 25px; font-weight: bold; color: #8E44AD;">05</p>
+                    <p>Tareas para hoy</p>
+                </article>
+                
+                <article>
+                    <p style="font-size: 25px; font-weight: bold; color: #8E44AD;">03</p>
+                    <p>Mensajes</p>
+                </article>
+            </div>
+        </section>
 
         <section>
             <h2>Novedades Recientes</h2>
@@ -40,8 +67,8 @@
         </section>
     </main>
 
-  <footer>
-    <p>&copy; 2026 - APU - UNJU - Programacion Visual- Grupo 2 -Comision 3</p>
-</footer>
+    <footer>
+        <p>&copy; 2026 - APU - UNJU - Programacion Visual - Grupo 2</p>
+    </footer>
 </body>
 </html>
