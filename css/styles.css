@@ -289,3 +289,37 @@ footer {
         padding: 15px;
     }
 }
+
+/* ===== ESTILOS DETALLE - AYELEN ===== */
+
+:root {
+  --color-principal: #8E44AD;
+  --color-secundario: #7F8C8D;
+  --color-fondo: #ECF0F1;
+  --color-acento: #FF5EF8;
+}
+
+body {
+  background-color: var(--color-fondo);
+}
+
+header {
+  background-color: var(--color-principal);
+  color: white;
+  padding: 15px;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: var(--color-secundario);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+a:hover {
+  color: var(--color-acento);
+}
